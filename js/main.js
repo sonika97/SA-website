@@ -1,5 +1,7 @@
 
-
+(function() {
+  "use strict";
+  
   /*Testimonials slider*/
 
   new Swiper('.testimonials-slider', {
@@ -28,4 +30,15 @@
     }
   });
 
- 
+   /* Animation on scroll*/
+   
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+
+})()
