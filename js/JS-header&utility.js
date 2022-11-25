@@ -126,6 +126,8 @@ $(document).ready(function(){
 
         }, 1);
 
+
+
     }
 
     // Close menu mobile function
